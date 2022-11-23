@@ -1,0 +1,47 @@
+.footer-container {
+  background-color: black;
+  padding-bottom: 70px;
+}
+
+.support-title, .about-title, .sign-up-title {
+  color: white;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #999999;
+}
+
+.support-link {
+  color: #999999;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.left-support-links-container, .right-support-links-container {
+  margin-bottom: 4px;
+}
+
+.support-container, .about-container, .sign-up-container { 
+  padding: 40px 40px 0 40px;
+}
+
+.sign-up-input {
+  padding: 15px 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  width: 400px;
+}
+
+.sign-up-button {
+  padding: 0 20px;
+  margin-left: 1px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.sign-up-content {
+  display: flex;
+}
