@@ -21,7 +21,7 @@ const Footer = () => {
               <Grid item sm={6} xs={6}>
                 {leftSupportLink.map((link) => {
                   return (
-                    <div className="left-support-links-container">
+                    <div key={link.id} className="left-support-links-container">
                       <a className="support-link" href={link.link}>
                         {link.name}
                       </a>
@@ -33,7 +33,10 @@ const Footer = () => {
               <Grid item sm={6} xs={6}>
                 {rightSupportLink.map((link) => {
                   return (
-                    <div className="right-support-links-container">
+                    <div
+                      key={link.id}
+                      className="right-support-links-container"
+                    >
                       <a className="support-link" href={link.link}>
                         {link.name}
                       </a>
@@ -52,7 +55,7 @@ const Footer = () => {
               <Grid item sm={6} xs={6}>
                 {leftAboutLink.map((link) => {
                   return (
-                    <div>
+                    <div key={link.id}>
                       <a className="support-link" href={link.link}>
                         {link.name}
                       </a>
@@ -64,7 +67,7 @@ const Footer = () => {
               <Grid item sm={6} xs={6}>
                 {rightAboutLink.map((link) => {
                   return (
-                    <div>
+                    <div key={link.id}>
                       <a className="support-link" href={link.link}>
                         {link.name}
                       </a>

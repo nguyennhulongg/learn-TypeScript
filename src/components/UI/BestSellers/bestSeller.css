@@ -1,0 +1,31 @@
+.best-seller-products {
+  margin-bottom: 20px;
+  padding: 0 7%;
+}
+
+.best-seller-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.product-image {
+  width: 250px;
+  object-fit: cover;
+  height: 350px;
+}
+
+.best-seller-product-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-seller-product-information {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+

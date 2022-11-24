@@ -17,6 +17,10 @@
   margin-bottom: 100px;
 }
 
+.support-link:hover {
+  color: white;
+}
+
 .left-support-links-container, .right-support-links-container {
   margin-bottom: 4px;
 }
