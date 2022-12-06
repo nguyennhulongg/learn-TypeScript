@@ -1,0 +1,38 @@
+.all-products-container {
+}
+
+.all-products-amount {
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.all-product-header-img {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 60px;
+}
+
+.all-products-title {
+  padding: 20px 0;
+}
+
+.show-all-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.all-product-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+.all-products-pagination {
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,21 @@
+.all-product-content {
+ width: 230px;
+ margin: 20px;
+}
+
+.all-product-avatar {
+ height: 250px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.all-product-edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.price-product {
+}

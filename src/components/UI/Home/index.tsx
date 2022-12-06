@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../Common/Footer/index";
 import Header from "../../Common/Header/index";
 import BestSellerProducts from "../BestSellers";
-import imgBody from "../../../assets/img/body-image-hehe.jpg";
+import PopularProduct from "../popularProduct";
 import "./home.css";
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
     <div>
       <Header />
       <BestSellerProducts />
+      <PopularProduct />
       <Footer />
     </div>
   );

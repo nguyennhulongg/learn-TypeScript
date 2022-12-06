@@ -1,0 +1,17 @@
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.empty-cart-container svg {
+  font-size: 20vw;
+}
+
+
+.no-content-text {
+  font-size: 2.5vw;
+  margin-top: 20px;
+}
